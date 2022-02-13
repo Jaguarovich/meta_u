@@ -1,0 +1,420 @@
+@media (max-width: 1919px) {
+  /* Шапка старт */
+  ._container {
+    max-width: 1238px;
+  }
+  .header_container {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .logo_header {
+    width: 166px;
+    height: 68px;
+    margin-right: 38px;
+  }
+  .nav_menu li:not(:last-child) {
+    margin-right: 22px;
+  }
+  .lang {
+    margin-bottom: 3px;
+  }
+  .lang img {
+    width: 17.96px;
+    height: 12px;
+  }
+  .lang img:not(:last-child) {
+    margin-right: 4px;
+  }
+  .conract_info,
+  .whitepaper {
+    margin-left: 23px;
+  }
+  /* Шапка финиш */
+  /* Майн старт */
+  .main {
+    height: 1129px;
+  }
+  .background {
+    width: 1238px;
+    height: auto;
+    top: -66px;
+  }
+  .token_info {
+    top: -25px;
+    right: -108px;
+  }
+
+  @keyframes token_info-anime{
+    0%{
+      transform: translateX(750px) scale(0.7);
+    }
+    50%{
+      transform: translateX(-100px) scale(0.7);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px) scale(0.7);
+    }
+  }
+
+  .content_main {
+    width: 1238px;
+    top: 660px;
+  }
+  .description_main h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .description_main h2 {
+    font-size: 24px;
+    line-height: 28px;
+    width: 850px;
+  }
+  .vr_ar {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .vr_ar img {
+    height: 52px;
+    width: 2px;
+  }
+  .logo_anime {
+    top: 55px;
+    width: 311px;
+    margin-right: 43px;
+  }
+  .logo1 {
+    width: 311px;
+    height: 301px;
+  }
+  .logo2 {
+    width: 193px;
+    height: 264px;
+    bottom: 128px;
+  }
+  .logo3 {
+    width: 98px;
+    height: 87px;
+    bottom: 394px;
+  }
+  /* advantages старт */
+  .advantages_container {
+    margin-top: 95px;
+  }
+  .advantages_photo {
+    width: 607px;
+    height: 907px;
+  }
+  .description_advantages {
+    max-width: 563px;
+  }
+  .description_advantages h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .description_advantages p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 34px;
+  }
+  .advantages_left_line {
+    top: 1107px;
+    /* max-width: 1440px */
+  }
+  .advantages_right_line {
+    top: 1468px;
+    /* max-width: 1440px; */
+  }
+  /* майн финиш */
+  /* goals старт */
+  .goals_container {
+    margin-top: 163px;
+    height: 383px;
+    padding-bottom: 45px;
+  }
+  .goals_container h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .goals_container p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 42px;
+    margin-left: 42px;
+    margin-top: 30px;
+  }
+  .goals_container img {
+    width: 73px;
+    height: 100px;
+    top: 16px;
+    right: 42px;
+  }
+  /* будущее начало */
+  .future_container {
+    margin-top: -40px;
+  }
+  .future_container_description {
+    margin-top: 120px;
+    margin-left: 42px;
+  }
+  .future_container_description h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .future_container_description p {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(223, 251, 255, 0.9);
+  }
+  .future_photo {
+    width: 781px;
+    height: 569px;
+    margin-right: -50px;
+    z-index: 2;
+  }
+  /* Инвесторам и пользователям начало */
+  .investors {
+    height: 410px;
+  }
+  .investors > h2 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 44px;
+  }
+  .investors > p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 42px;
+    margin-right: 42px;
+  }
+  /* Слайдеер начало */
+  .slider_header {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 38px;
+  }
+  .swiper-wrapper {
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+  .swiper-button-prev > img,
+  .swiper-button-next > img {
+    width: 25px;
+    height: 72px;
+  }
+  .slide {
+    width: 368px;
+    height: 410px;
+  }
+  .slide > h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .stage_description {
+    margin-top: 23px;
+    margin-left: 20px;
+  }
+  .loading_icon_container {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  .loading_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .loading_icon_shadow {
+    top: -1.5px;
+    left: -1.5px;
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
+  }
+  .loading_icon > img {
+    width: 25px;
+    height: 27px;
+    left: -7px;
+    top: -11px;
+  }
+  .stage_description > p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .stage_proces {
+    width: 187px;
+    height: 40px;
+  }
+  .stage_proces > p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 4px;
+  }
+  .stage_logo{
+   width: 73px;
+   height: auto;
+   right: 20px;
+   top: 20px;
+  }
+  /* Анимация планеты старт */
+  .anime_planet_container {
+    height: 130px;
+  }
+  .anime_planet {
+    width: 844px;
+    height: 650px;
+  }
+  /* анимация планеты финиш */
+  /* Tokenomica start */
+  .tokenomica {
+    margin-bottom: 100px;
+  }
+  .tokenomica h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .tokenomica_left {
+    width: 801px;
+    height: 280px;
+  }
+  .tokenomica_left p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 42px;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  .tokenomica_right_text {
+    width: 393px;
+    height: 34px;
+    margin-top: 12px;
+  }
+  #tokenomica_2 {
+    width: 351px;
+    height: 34px;
+  }
+  #tokenomica_3 {
+    width: 237px;
+    height: 34px;
+  }
+  #tokenomica_4 {
+    width: 202px;
+    height: 34px;
+  }
+  #tokenomica_5 {
+    width: 174px;
+    height: 34px;
+  }
+  #tokenomica_6 {
+    width: 105px;
+    height: 34px;
+  }
+  .tokenomica_right_text > p {
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 14px;
+  }
+  .tokenomica_right_percent {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  /* Partners start */
+  .partners_left_block {
+    width: 523.63px;
+    height: 560.93px;
+    margin-left: 88px;
+  }
+
+  .partners_right_block h2 {
+    font-size: 48px;
+    margin-top: 101px;
+    margin-left: 62px;
+    margin-bottom: 0px;
+  }
+  .partners_right_block p {
+    font-size: 24px;
+    margin-left: 62px;
+    margin-top: 30px;
+    max-width: 519px;
+  }
+  .button_start {
+    margin-left: 62px;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 187px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  #partners_logo_1 {
+    width: 505.3px;
+  }
+  #partners_logo_2 {
+    width: 521.37px;
+    top: 57px;
+  }
+  /* Partners finish */
+
+/* Слайдер 2 */
+
+.slide_logo > img {
+  height: 108px;
+}
+.swiper-slide2 {
+  width: auto !important;
+}
+.slide_logo{
+  width: auto !important;
+}
+.swiper2{
+  height: 108px;
+  margin-top: 67px;
+}
+
+  /* Footer start */
+  .footer{
+    margin-top: 67px;
+  }
+  .footer_left_block {
+    height: 165px;
+  }
+  .footer_left_block img {
+    width: 87px;
+    height: 123px;
+    margin-left: 45px;
+  }
+  .footer_left_block p {
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 30px;
+  }
+  .footer_right_block {
+    height: 165px;
+  }
+  .footer_right_block_container_social {
+    margin-right: 45px;
+  }
+  .footer_right_block_container_social p {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 6px;
+    margin-top: 2px;
+  }
+  .footer_right_block_container_social img:not(first-child) {
+    margin-left: 7px;
+  }
+  .footer_right_block_copiright {
+    margin-right: 34px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 20px;
+  }
+  .footer_right_block_social img {
+    margin-top: -39px;
+    width: 34.24px;
+    height: 34.24px;
+  }
+  /* Footer end */
+}

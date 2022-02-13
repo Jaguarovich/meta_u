@@ -1,0 +1,341 @@
+@media (max-width: 1439px) {
+  /* Шапка старт */
+  ._container {
+    max-width: 890px;
+  }
+  .header_container {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .logo_header {
+    width: 148px;
+    height: 60px;
+  }
+  .lang img {
+    width: 14px;
+    height: 8px;
+  }
+  .conract_info,
+  .whitepaper {
+    margin-left: 30px;
+  }
+  .conract_info img,
+  .whitepaper img {
+    width: 13px;
+    height: 9px;
+  }
+  /* шапка финиш */
+
+  /* Майн старт */
+  .background {
+    width: 890px;
+    height: auto;
+    top: -60px;
+  }
+  .token_info {
+    right: -155px;
+    top: -33px;
+  }
+
+  @keyframes token_info-anime{
+    0%{
+      transform: translateX(750px) scale(0.58);
+    }
+    50%{
+      transform: translateX(-100px) scale(0.58);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px) scale(0.58);
+    }
+  }
+
+  .content_main {
+    width: 890px;
+    top: 440px;
+  }
+  .description_main h1 {
+    margin-top: 32px;
+    font-size: 35px;
+    line-height: 41px;
+    width: 609px;
+    height: min-content;
+  }
+  .description_main h2 {
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 20px;
+    width: 590px;
+  }
+  .vr_ar {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .vr_ar img {
+    height: 32px;
+    width: 2px;
+  }
+  .logo_anime {
+    top: 85px;
+    width: 213px;
+    margin-right: 35px;
+  }
+  .logo1 {
+    width: 213px;
+    height: 206px;
+  }
+  .logo2 {
+    width: 133px;
+    height: 180px;
+    bottom: 139px;
+  }
+  .logo3 {
+    width: 68px;
+    height: 60px;
+    bottom: 321px;
+  }
+  /* advntages старт */
+  .advantages_container {
+    margin-top: -268px;
+  }
+  .advantages_photo {
+    width: 434px;
+    height: 673px;
+  }
+  .description_advantages {
+    max-width: 394px;
+  }
+  .description_advantages h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .description_advantages p {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 25px;
+  }
+  .advantages_left_line {
+    max-width: 100%;
+    top: 851px;
+  }
+  .advantages_right_line {
+    max-width: 100%;
+    top: 862px;
+  }
+  /* advantages финиш */
+  /* goals старт */
+  .goals_container {
+    margin-top: 103px;
+    height: 267px;
+    padding-bottom: 23px;
+  }
+  .goals_container h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .goals_container p {
+    font-size: 17px;
+    line-height: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+  .goals_container img {
+    width: 44px;
+    height: 60px;
+    top: 20px;
+    right: 35px;
+  }
+  /* goals финиш */
+  /* будущее начало */
+  .future_container {
+    margin-top: -20px;
+  }
+  .future_container_description {
+    margin-top: 70px;
+  }
+  .future_container_description h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .future_container_description p {
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .future_photo {
+    width: 537px;
+    height: 393px;
+    margin-right: -28px;
+    z-index: 2;
+  }
+  /* Инвесторам и пользователям начало */
+  .investors {
+    height: 269px;
+  }
+  .investors > h2 {
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 25px;
+  }
+  .investors > p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  /* Слайдер начало */
+  .slider_header {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .slide{
+margin-top: 5px;
+  }
+  /* Слайдер конец */
+  /* Анимация планеты старт */
+  .anime_planet {
+    top: -150px;
+  }
+  /* анимация планеты финиш */
+
+  /* Tokenomica start */
+  .tokenomica {
+    margin-bottom: 96px;
+  }
+  .tokenomica h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .tokenomica_left {
+    width: 568px;
+    height: 198px;
+  }
+  .tokenomica_left > p {
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 33px;
+    margin-top: 21px;
+    margin-right: 13px;
+  }
+  .tokenomica_right_text {
+    width: 287px;
+    height: 24px;
+    margin-top: 9px;
+  }
+  #tokenomica_2 {
+    width: 258px;
+    height: 24px;
+  }
+  #tokenomica_3 {
+    width: 178px;
+    height: 24px;
+  }
+  #tokenomica_4 {
+    width: 156px;
+    height: 24px;
+  }
+  #tokenomica_5 {
+    width: 145px;
+    height: 24px;
+  }
+  #tokenomica_6 {
+    width: 86px;
+    height: 24px;
+  }
+  .tokenomica_right_text > p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .tokenomica_right_percent {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 5px;
+  }
+  .tokenomica_right_percent p {
+    margin-left: 0px;
+  }
+  /* Tokenomica finish */
+
+  /* Partners start */
+  .partners_left_block {
+    width: 367px;
+    height: 387.57px;
+    margin-left: 67px;
+  }
+  .partners_right_block h2 {
+    font-size: 35px;
+    margin-top: 65px;
+    margin-left: 62px;
+  }
+  .partners_right_block p {
+    max-width: 359px;
+    font-size: 17px;
+    margin-left: 62px;
+    margin-top: 20px;
+  }
+  .button_start {
+    margin-left: 62px;
+    margin-top: 42px;
+    width: 134px;
+    height: 28.53px;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  #partners_logo_1 {
+    width: 354.16px;
+  }
+  #partners_logo_2 {
+    width: 365.42px;
+    top: 39.42px;
+  }
+  /* Partners finish */
+
+/* Слайдер 2 */
+
+.slide_logo > img {
+  margin-top: -10px;
+  height: 78px;
+}
+.swiper2{
+  height: 78px;
+  margin-top: 67px;
+}
+/* Слайдер 2 финиш  */
+  /* Footer start */
+  .footer_left_block,
+  .footer_right_block {
+    height: 119px;
+  }
+  .footer_left_block img {
+    width: 63px;
+    height: 88px;
+    margin-left: 32px;
+  }
+  .footer_left_block p {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 16px;
+  }
+  .footer_right_block_container_social {
+    margin-right: 32px;
+  }
+  .footer_right_block_container_social p {
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 10px;
+  }
+  .footer_right_block_container_social img:not(first-child) {
+    margin-left: 2px;
+  }
+  .footer_right_block_copiright {
+    margin-right: 15px;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 16px;
+  }
+  .footer_right_block_social img {
+    margin-top: -39px;
+    width: 27.24px;
+    height: auto;
+  }
+  /* Footer end */
+}
