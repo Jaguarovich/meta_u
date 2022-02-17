@@ -52,6 +52,13 @@ body.active {
 }
 .wrapper a {
   text-decoration: none;
+  font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: #FFFFFF;
+}
+a:hover{
+  color: #03AEA1;
 }
 /* Шапка старт */
 
@@ -91,6 +98,10 @@ body.active {
 }
 .nav_menu li:not(:last-child) {
   margin-right: 14px;
+/* font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: #FFFFFF; */
 }
 .right_block_header {
   display: flex;
