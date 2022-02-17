@@ -1,2 +1,2 @@
-https://iharrubanik.github.io/Meta_university/
+https://jaguarovich.github.io/meta_u/
 comit
